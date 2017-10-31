@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  frontend:
+    build: frontend
+    ports:
+      - "4200:4200"
+  backend:
+    build: backend
+    ports:
+      - "8080:80"
+  db:
+    image: mongo
+    ports:
+      - "27017:27017"

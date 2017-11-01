@@ -171,20 +171,10 @@ docker-compose up --build
 	* Angular-Component erstellen
 	* Links definieren
 
-Was noch fehlt:
- - Application Links (aktiver API-Call z.B.)
- - Environment-Variablen integrieren
- - Debug
-
-
-
 Cheatsheet:
 	docker build ...
 	docker run ...
 	docker rm
 	docker rm -v
 	docker kill
-
-
-docker build -t frontend .
-docker build -t backend .
+	docker run --rm -it xxx sh
